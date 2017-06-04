@@ -32,6 +32,7 @@ public class VentanaRanking extends JDialog
 	
 	private VentanaRanking() 
 	{
+		setResizable(false);
 		listModel = new DefaultListModel<>();
 		list = new JList<>( listModel );
 		scrollPane = new JScrollPane();
